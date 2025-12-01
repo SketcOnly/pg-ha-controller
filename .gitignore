@@ -1,0 +1,52 @@
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+# Go
+/bin/
+/build/
+/dist/
+/logs/
+*.test
+vendor/
+
+# Temp / logs
+*.log
+*.tmp
+*.out
+*.pid
+
+# Environment
+.env
+.env.local
+*.secret
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+
+# Docker
+docker-data/
+docker_volume_*/
+
+# Node / frontend (if any)
+node_modules/
+
+# Python (if any)
+__pycache__/
+*.pyc
+
+# Coverage
+coverage/
+*.cov
+*.prof
+
+# Binary / archive
+*.zip
+*.tar.gz
+*.exe
+*.dll
+*.so
+*.dylib
+
